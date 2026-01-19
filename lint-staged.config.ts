@@ -15,7 +15,7 @@ function formatAndEslint(fileNames: string[]) {
   const joinedPaths = relativePaths.map((p) => `"${p}"`).join(' ')
   return [
     `pnpm exec prettier --cache --write ${joinedPaths}`,
-    `pnpm exec oxlint --fix ${joinedPaths}`,
+    `pnpm exec vite lint --fix ${joinedPaths}`,
     `pnpm exec eslint --cache --fix --no-warn-ignored ${joinedPaths}`
   ]
 }

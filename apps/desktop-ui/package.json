@@ -114,6 +114,7 @@
     "vite": "catalog:",
     "vite-plugin-html": "catalog:",
     "vite-plugin-vue-devtools": "catalog:",
-    "vue-tsc": "catalog:"
+    "vue-tsc": "catalog:",
+    "vite-plus": "catalog:"
   }
 }

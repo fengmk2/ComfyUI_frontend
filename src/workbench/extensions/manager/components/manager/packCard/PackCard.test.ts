@@ -2,7 +2,7 @@ import { mount } from '@vue/test-utils'
 import { createPinia, setActivePinia } from 'pinia'
 import Card from 'primevue/card'
 import ProgressSpinner from 'primevue/progressspinner'
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 import PackCard from '@/workbench/extensions/manager/components/manager/packCard/PackCard.vue'
 import type {

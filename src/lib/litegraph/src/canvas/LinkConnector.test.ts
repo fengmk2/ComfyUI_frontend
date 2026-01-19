@@ -1,5 +1,5 @@
 // TODO: Fix these tests after migration
-import { beforeEach, describe, expect, test, vi } from 'vitest'
+import { beforeEach, describe, expect, test, vi } from 'vite-plus/test'
 
 import type { INodeInputSlot, LGraphNode } from '@/lib/litegraph/src/litegraph'
 // We don't strictly need RenderLink interface import for the mock

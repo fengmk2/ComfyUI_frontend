@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 import { LGraphEventMode } from '@/lib/litegraph/src/litegraph'
 import type { LGraph, LGraphNode } from '@/lib/litegraph/src/litegraph'

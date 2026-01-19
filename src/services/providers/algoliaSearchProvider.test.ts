@@ -1,5 +1,5 @@
 import { liteClient as algoliasearch } from 'algoliasearch/dist/lite/builds/browser'
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 import { useAlgoliaSearchProvider } from '@/services/providers/algoliaSearchProvider'
 import { SortableAlgoliaField } from '@/workbench/extensions/manager/types/comfyManagerTypes'

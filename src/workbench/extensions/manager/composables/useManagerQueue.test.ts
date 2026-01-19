@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import { ref } from 'vue'
 
 import { useManagerQueue } from '@/workbench/extensions/manager/composables/useManagerQueue'

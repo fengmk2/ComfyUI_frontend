@@ -3,7 +3,7 @@ import { mount } from '@vue/test-utils'
 import type { VueWrapper } from '@vue/test-utils'
 import PrimeVue from 'primevue/config'
 import type { ComponentPublicInstance } from 'vue'
-import { describe, expect, it, vi } from 'vitest'
+import { describe, expect, it, vi } from 'vite-plus/test'
 
 import type { ComboInputSpec } from '@/schemas/nodeDef/nodeDefSchemaV2'
 import type { DropdownItem } from '@/renderer/extensions/vueNodes/widgets/components/form/dropdown/types'

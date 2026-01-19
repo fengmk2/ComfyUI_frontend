@@ -1,6 +1,6 @@
 import { createPinia, setActivePinia } from 'pinia'
 import { compare, valid } from 'semver'
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 import { useReleaseStore } from '@/platform/updates/common/releaseStore'
 

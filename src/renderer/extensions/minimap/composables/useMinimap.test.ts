@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import { nextTick, shallowRef } from 'vue'
 
 const flushPromises = () => new Promise((resolve) => setTimeout(resolve, 0))
