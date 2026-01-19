@@ -2,7 +2,7 @@ import { createTestingPinia } from '@pinia/testing'
 import { mount } from '@vue/test-utils'
 import PrimeVue from 'primevue/config'
 import type { SelectProps } from 'primevue/select'
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 import SelectPlus from '@/components/primevueOverride/SelectPlus.vue'
 import type { ComboInputSpec } from '@/schemas/nodeDef/nodeDefSchemaV2'

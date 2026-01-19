@@ -29,15 +29,15 @@
     "json-schema": "tsx scripts/generate-json-schema.ts",
     "knip:no-cache": "knip",
     "knip": "knip --cache",
-    "lint:fix:no-cache": "oxlint src --type-aware --fix && eslint src --fix",
-    "lint:fix": "oxlint src --type-aware --fix && eslint src --cache --fix",
-    "lint:no-cache": "oxlint src --type-aware && eslint src",
+    "lint:fix:no-cache": "vite lint src --type-aware --fix && eslint src --fix",
+    "lint:fix": "vite lint src --type-aware --fix && eslint src --cache --fix",
+    "lint:no-cache": "vite lint src --type-aware && eslint src",
     "lint:unstaged:fix": "git diff --name-only HEAD | grep -E '\\.(js|ts|vue|mts)$' | xargs -r eslint --cache --fix",
     "lint:unstaged": "git diff --name-only HEAD | grep -E '\\.(js|ts|vue|mts)$' | xargs -r eslint --cache",
-    "lint": "oxlint src --type-aware && eslint src --cache",
+    "lint": "vite lint src --type-aware && eslint src --cache",
     "lint:desktop": "nx run @comfyorg/desktop-ui:lint",
     "locale": "lobe-i18n locale",
-    "oxlint": "oxlint src --type-aware",
+    "oxlint": "vite lint src --type-aware",
     "preinstall": "pnpm dlx only-allow pnpm",
     "prepare": "husky || true && git config blame.ignoreRevsFile .git-blame-ignore-revs || true",
     "preview": "nx preview",
@@ -101,8 +101,6 @@
     "markdown-table": "catalog:",
     "mixpanel-browser": "catalog:",
     "nx": "catalog:",
-    "oxlint": "catalog:",
-    "oxlint-tsgolint": "catalog:",
     "picocolors": "catalog:",
     "postcss-html": "catalog:",
     "prettier": "catalog:",
@@ -129,7 +127,8 @@
     "vue-eslint-parser": "catalog:",
     "vue-tsc": "catalog:",
     "zip-dir": "^2.0.0",
-    "zod-to-json-schema": "catalog:"
+    "zod-to-json-schema": "catalog:",
+    "vite-plus": "catalog:"
   },
   "dependencies": {
     "@alloc/quick-lru": "catalog:",
@@ -194,8 +193,7 @@
     "zod-validation-error": "catalog:"
   },
   "pnpm": {
-    "overrides": {
-      "vite": "^8.0.0-beta.8"
-    }
-  }
+    "overrides": {}
+  },
+  "packageManager": "pnpm@10.28.0"
 }

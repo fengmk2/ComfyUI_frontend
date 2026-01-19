@@ -1,7 +1,7 @@
 /* eslint-disable vue/one-component-per-file */
 import { mount } from '@vue/test-utils'
 import { createPinia } from 'pinia'
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vite-plus/test'
 import { defineComponent } from 'vue'
 import type { PropType } from 'vue'
 import { createI18n } from 'vue-i18n'

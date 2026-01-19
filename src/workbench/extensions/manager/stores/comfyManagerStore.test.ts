@@ -1,5 +1,5 @@
 import { createPinia, setActivePinia } from 'pinia'
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import { nextTick, ref } from 'vue'
 
 import { useComfyManagerService } from '@/workbench/extensions/manager/services/comfyManagerService'

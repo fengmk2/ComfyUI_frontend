@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 import { ref, shallowRef } from 'vue'
 
 import type { LGraph } from '@/lib/litegraph/src/litegraph'

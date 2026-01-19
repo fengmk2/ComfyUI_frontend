@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test'
 
 import type * as TopupTrackerModule from '@/platform/telemetry/topupTracker'
 import type { AuditLog } from '@/services/customerEventsService'
